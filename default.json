@@ -4,5 +4,13 @@
     "config:recommended",
     "helpers:pinGitHubActionDigestsToSemver",
     ":gitSignOff"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "vexxhost.atmosphere"
+      ],
+      "separateMultipleMajor": true
+    }
   ]
 }
