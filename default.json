@@ -19,7 +19,8 @@
         "googleapis/release-please-action",
         "aquasecurity/trivy-action",
         "step-security/**",
-        "actions/**"
+        "actions/**",
+        "docker/**"
       ],
       "autoMerge": true,
       "minimumReleaseAge": "7 days"
