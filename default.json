@@ -11,6 +11,18 @@
         "vexxhost.atmosphere"
       ],
       "separateMultipleMajor": true
+    },
+    {
+      "matchPackageNames": [
+        "ytanikin/pr-conventional-commits",
+        "peter-evans/create-pull-request",
+        "googleapis/release-please-action",
+        "aquasecurity/trivy-action",
+        "step-security/**",
+        "actions/**"
+      ],
+      "autoMerge": true,
+      "minimumReleaseAge": "7 days"
     }
   ]
 }
