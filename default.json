@@ -22,7 +22,7 @@
         "actions/**",
         "docker/**"
       ],
-      "autoMerge": true,
+      "automerge": true,
       "minimumReleaseAge": "7 days"
     }
   ]
